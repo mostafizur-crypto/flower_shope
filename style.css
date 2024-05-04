@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 222, 213);
+    margin-bottom: 70px;
+    
+  }
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-top: 30px;
+}
+
+.half-width {
+    width: 36%;
+  }
+  .half-width img {
+    width: 90%;
+    height: 100%;
+  }
+  .half-width p{
+    margin-bottom: 40px;
+  }
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(233, 30, 30), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    
+  }
+
+  .Featured{
+    text-align: center;
+  }
+
+  .Featured-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 13%;
+    margin-top: -100px;
+  }
+
+  .Featured-img .flower{
+    background-color: aqua;
+    width: 320px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50% 50% 0 0; 
+  }
+
+  .flower img{
+    width:230px;
+    height: 300px;
+    margin-top: 70px;
+  }
+ .Featured-img .flower:nth-child(1){
+  background-color: rgb(250, 224, 224);
+ }
+ .Featured-img .flower:nth-child(2){
+  background-color: rgb(201, 232, 245);
+ }
+ .Featured-img .flower:nth-child(3){
+  background-color: rgb(235, 230, 230);
+ }
+
+.tree{
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+  padding: 18%;
+  margin-top: -425px;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(234, 248, 248);
+  width: 60%;
+  height: 50px;
+  margin-bottom: 150px;
+  padding: 7%;
+  margin-left: 11rem;
+  margin-top: -160px;
+}
+
+.box-center{
+text-align: center;
+}
+.deal{
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+  background-color: rgb(245, 239, 228);
+  height: 180px;
+  margin-bottom: 100px;
+}
+
+.deal .deal-img img{
+  height: 320px;
+  margin: -70px;
+  position: absolute;
+  margin-left: -400px;
+}
+
+.deal .deal-text{
+  text-align: center;
+}
+
+.deal .deal-text p{
+  margin-bottom: 70px;
+  
+}
+
+.deal .deal-text h2{
+  font-size: 2rem;
+}
+.deal .deal-text .color{
+  color: red;
+}
+
+.flower-container{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 160px;
+  margin-bottom: 80px;
+  
+}
+.flower-container .flower-size img{
+  width: 240px;
+}
+
+.bg-img{
+  text-align: center;
+  width: 75%;
+  height: 300px;
+  background-color: rgb(12, 235, 160);
+  margin-left: 160px;
+  margin-bottom: 100px;
+}
+
+.bg-img img{
+  width: 100%;
+}
+
+.bg-img h2{
+  margin-top: -215px;
+}
+
+.bg-img .input-email .input{
+  width: 450px;
+  height: 30px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 3%;
+}
+
+.footer .color{
+  color: red;
+}
+
+.footer small{
+  background-color: gray;
+  color: black;
+}
